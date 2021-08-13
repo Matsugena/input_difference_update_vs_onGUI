@@ -5,12 +5,9 @@ using UnityEngine.UI;
 
 public class GUIManager : MonoBehaviour {
     string inputString = "";
-    private string nl = System.Environment.NewLine;
 
     [SerializeField]
     Text displayText;
-
-    float countFrame = 0f;
 
     private void Update () {
         if (displayText != null) {
@@ -20,9 +17,5 @@ public class GUIManager : MonoBehaviour {
 
     public void pushString (string input) {
         inputString += input;
-    }
-
-    private string countFrameString () {
-        return countFrame.ToString () + Time.time + System.Environment.NewLine;
     }
 }
