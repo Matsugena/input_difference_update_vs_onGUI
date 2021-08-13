@@ -40,3 +40,5 @@ public class InputManager : MonoBehaviour {
 }
 
 ```
+
+![key_input_example](https://user-images.githubusercontent.com/43107404/129321598-2c6680fe-fb9e-4246-97b9-fd4f752c1b50.gif)
